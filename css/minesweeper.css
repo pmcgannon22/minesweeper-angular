@@ -1,0 +1,66 @@
+.container {
+    height: 500px;
+}
+
+.minesweeper table {
+    margin: 25px auto;
+}
+
+.minesweeper table tbody {
+    border-top: 1px solid #E0E0E0;
+    border-left: 1px solid #E0E0E0;
+}
+
+.minesweeper table tr {
+   line-height: 40px;
+   min-height: 40px;
+   height: 40px;
+}
+
+.minesweeper table td {
+    width: 40px;
+    height: 40px;
+}
+
+.minesweeper table td div {
+    height: 100%;
+}
+
+.minesweeper table div.square-wrap > div {
+    background-color: #c2c2c2;
+    border: 1px solid #808080;
+}
+
+.minesweeper table div.square-wrap img {
+    height: 100%;
+    weight: 100%;
+}
+
+.minesweeper-wrapper {
+    text-align: center;
+}
+
+.minesweeper-wrapper .minesweeper-buttons {
+    margin-bottom: 20px;
+}
+
+td .unopened {
+    cursor: pointer;
+}
+
+td .opened > div  {
+    text-align: center;
+    font-family: courier;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bomb {
+    background-color: red;
+    text-align: center;
+}
+
+.bomb > img {
+    width: 80%;
+    height: 80%;
+}
